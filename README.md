@@ -3,7 +3,6 @@
 ## This Repository Contains the Data Analysis and AI model evaluations for "What drives the price of a car?" problem provided in Practical Application Assignment 11.1
 
 ### **Overview**
-OVERVIEW
 
 In this application, we will explore a dataset from kaggle. The original dataset contained information on 3 million used cars. The provided dataset contains information on 426K cars to ensure speed of processing. Our goal is to understand what factors make a car more or less expensive. As a result of out analysis, we should provide clear recommendations to our client -- a used car dealership -- as to what consumers value in a used car.
 
@@ -48,6 +47,18 @@ Data columns (total 18 columns):
 Dtypes: float64(2), int64(2), object(14)
 
 
+Some visualizations on the data are as below:
+
+![Corelated Fetures with price](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Correlation-sample-plot.jpg)
+
+![Price Year visualization](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Year-Vs-Price-bar-outlier_detection.jpg)
+
+![Year outliers](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Year-Vs-Price_scatter-before-cap.jpg)
+
+![Odometer Vs Price scatter](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Odometer-Vs-Price_scatter.jpg)
+
+![Price distibution for bias check](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Insight-Dist-Plot.jpg)
+
 
 
 ## **Analysis Report:**                         
@@ -61,6 +72,15 @@ Dtypes: float64(2), int64(2), object(14)
 
   Furthermore, we navigated the intricacies of categorical columns by employing an encoder to transform this data into a format compatible with our prediction models. We subjected the dataset to three distinct models, including Linear Regression, Ridge Regression, and Lasso. Remarkably, these models consistently generated predictions that exhibited minimal discrepancies, as evidenced by their closely aligned loss function values.
 
+  Model Comapriion Results are as below:
+
+    |                     | Linear Regression | Ridge Regression | Lasso Regression |
+    | R2 Score            | 0.6179            | 0.6179           | 0.6179           |
+    | Accuracy(%)         | 61.7940           | 61.7940          | 61.7940          |
+    | Mean Squared Error  |  55730138.44      | 55730138.44      | 55730138.44      |
+    | Mean Absolute Error | 5656.36           | 5656.36          | 5656.36          |
+    | Root MSE            | 7465.26           | 7465.26          | 7465.26          |
+
   Based on our comprehensive analysis, we identified several pivotal features that hold significance for dealerships when making car sales decisions:
 
   * Fuel type of the car
@@ -73,6 +93,8 @@ Dtypes: float64(2), int64(2), object(14)
   * The specific state where the car is sold
 
    ![Features affecting car prices](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Features-affecting-used-car-price.jpg)
+
+   ![Actual VS Predicted values Model Performance](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Linear-Regression-Performance.jpg)
 
 
   These insights serve as valuable guidelines for dealerships, empowering them to make informed decisions during the process of selling cars.
