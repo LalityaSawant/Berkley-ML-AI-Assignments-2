@@ -74,12 +74,14 @@ Some visualizations on the data are as below:
 
   Model Comapriion Results are as below:
 
-    |                     | Linear Regression | Ridge Regression | Lasso Regression |
-    | R2 Score            | 0.6179            | 0.6179           | 0.6179           |
-    | Accuracy(%)         | 61.7940           | 61.7940          | 61.7940          |
-    | Mean Squared Error  |  55730138.44      | 55730138.44      | 55730138.44      |
-    | Mean Absolute Error | 5656.36           | 5656.36          | 5656.36          |
-    | Root MSE            | 7465.26           | 7465.26          | 7465.26          |
+  |                     | Linear Regression | Ridge Regression | Lasso Regression |
+  |---------------------|-------------------|------------------|------------------|
+  | R2 Score            | 0.6179            | 0.6179           | 0.6179           |
+  | Accuracy(%)         | 61.7940           | 61.7940          | 61.7940          |
+  | Mean Squared Error  | 55,730,138.44     | 55,730,138.44    | 55,730,138.44    |
+  | Mean Absolute Error | 5,656.36          | 5,656.36         | 5,656.36         |
+  | Root MSE            | 7,465.26          | 7,465.26         | 7,465.26         |
+
 
   Based on our comprehensive analysis, we identified several pivotal features that hold significance for dealerships when making car sales decisions:
 
