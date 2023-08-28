@@ -49,15 +49,11 @@ Dtypes: float64(2), int64(2), object(14)
 
 Some visualizations on the data are as below:
 
-![Corelated Fetures with price](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Correlation-sample-plot.jpg)
-
-![Price Year visualization](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Year-Vs-Price-bar-outlier_detection.jpg)
-
 ![Year outliers](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Year-Vs-Price_scatter-before-cap.jpg)
 
 ![Odometer Vs Price scatter](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Odometer-Vs-Price_scatter.jpg)
 
-![Price distibution for bias check](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Insight-Dist-Plot.jpg)
+More data visualizations are present in charts folder.
 
 
 
