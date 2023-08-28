@@ -72,9 +72,7 @@ Dtypes: float64(2), int64(2), object(14)
   * Drive configuration of the car (4wd or 2wd)
   * The specific state where the car is sold
 
-   ![Features affecting car prices](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/practical_application_II_starter/charts/Features-affecting-used-car-price.jpg)
-
-   practical_application_II_starter/charts/Features-affecting-used-car-price.jpg
+   ![Features affecting car prices](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-2/tree/master/practical_application_II_starter/charts/Features-affecting-used-car-price.jpg)
 
 
   These insights serve as valuable guidelines for dealerships, empowering them to make informed decisions during the process of selling cars.
